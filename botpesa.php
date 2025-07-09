@@ -153,7 +153,7 @@ public function unknown($update,$apiURL)
         $PhoneNumber=$contact;
         $CallBackURL="CALLBACK URL";
         $AccountReference="BotPesa Telegram Bot";
-        $TransactionDesc="Botpesa Telegram API bot.";
+        $TransactionDesc="7555230747:AAEATlW0ze0TH4t7tcI5tgALV0DIx-YpJxM";
         $Remarks="Transaction made successfully";
 
         $timestamp='20'.date(    "ymdhis");
