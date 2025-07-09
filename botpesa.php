@@ -144,13 +144,13 @@ public function unknown($update,$apiURL)
             return json_encode(["Message"=>"invalid application status"]);
         }
 
-        $BusinessShortCode='YOUR_BUSINESS_CODE';
-        $LipaNaMpesaPasskey="6054766";
+        $BusinessShortCode='6054766';
+        $LipaNaMpesaPasskey="bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
         $TransactionType="CustomerPayBillOnline";
-        $Amount=$amount;
-        $PartyA=$contact;
-        $PartyB='PARTY B';
-        $PhoneNumber=$contact;
+        $Amount="20";
+        $PartyA="600995";
+        $PartyB="600000";
+        $PhoneNumber="254708374149";
         $CallBackURL="CALLBACK URL";
         $AccountReference="BotPesa Telegram Bot";
         $TransactionDesc="7555230747:AAEATlW0ze0TH4t7tcI5tgALV0DIx-YpJxM";
