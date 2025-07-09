@@ -67,8 +67,8 @@ public function unknown($update,$apiURL)
     public static function generateSandBoxToken(){
         $dotenv = new Dotenv\Dotenv(__DIR__);
         $dotenv->load();
-        $consumer_key= getenv("consumer_key");
-        $consumer_secret= getenv("consumer_secret");
+        $consumer_key= getenv("TEyb2o1QieawGAwxyQQkz57qfBJ7wiLOEuN72UDhPfC0JEkg");
+        $consumer_secret= getenv("PDmvKcPIm83M3f0swhNgXU0lWhek9EAlWhPbNH9sMFATkwTu6ktZiXwfUATL9xA3");
         if(!isset($consumer_key)||!isset($consumer_secret)){
             die("please declare the consumer key and consumer secret as defined in the documentation");
         }
@@ -93,8 +93,8 @@ public function unknown($update,$apiURL)
     public static function generateLiveToken(){
         $dotenv = new Dotenv\Dotenv(__DIR__);
         $dotenv->load();
-        $consumer_key=getenv("consumer_key");
-        $consumer_secret=getenv("consumer_secret");
+        $consumer_key=getenv("TEyb2o1QieawGAwxyQQkz57qfBJ7wiLOEuN72UDhPfC0JEkg");
+        $consumer_secret=getenv("PDmvKcPIm83M3f0swhNgXU0lWhek9EAlWhPbNH9sMFATkwTu6ktZiXwfUATL9xA3");
 
         if(!isset($consumer_key)||!isset($consumer_secret)){
             die("please declare the consumer key and consumer secret as defined in the documentation");
@@ -145,7 +145,7 @@ public function unknown($update,$apiURL)
         }
 
         $BusinessShortCode='YOUR_BUSINESS_CODE';
-        $LipaNaMpesaPasskey="YOUR LIPA NA MPESA PASS KEY";
+        $LipaNaMpesaPasskey="6054766";
         $TransactionType="CustomerPayBillOnline";
         $Amount=$amount;
         $PartyA=$contact;
